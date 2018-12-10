@@ -58,3 +58,4 @@ knnModel = runKNN(nbaData, "pos", "player")
 classifyPlayer(nbaData.loc[nbaData['player'] == 'LeBron James'], nbaData, knnModel, 'pos','player')
 
 kmeansmodel = runMeans(nbaData, ['pos','player'])
+
